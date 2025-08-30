@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Product Matcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Visual Product Matcher</h1>
+
+    <!-- Upload Section -->
+    <div class="upload-section">
+      <input type="file" id="imageUpload" accept="image/*">
+      <input type="text" id="imageUrl" placeholder="Or paste image URL">
+      <button onclick="searchProducts()">Search</button>
+    </div>
+
+    <!-- Preview -->
+    <div id="preview"></div>
+
+    <!-- Results -->
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
