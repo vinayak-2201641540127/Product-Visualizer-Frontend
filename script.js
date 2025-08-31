@@ -37,7 +37,7 @@ function searchProducts() {
   }
 
   // Call backend
-  fetch("http://localhost:5000/api/search", fetchOptions)
+  fetch("https://product-visualizer.onrender.com/api/search", fetchOptions)
     .then(res => res.json())
     .then(data => {
       results.innerHTML = "";
